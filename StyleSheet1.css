@@ -1,0 +1,70 @@
+﻿body {
+    background-image: url("Images/back00.jpg");
+    background-repeat: repeat-y;
+ }
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@font-face
+{
+font-family: myFont;
+src: url(fonts/HOMINIS.TTF);
+}
+
+h1, h3 {
+    margin-left: 310px;
+    font-weight: bold;
+    font-family: myFont;
+      
+}
+#footer {
+    margin-left: 310px;
+    font-weight: bold;
+    font-family: 'Lato';
+    color: gray;
+}
+#scrib {
+    height:200px;
+    width:400px;
+    margin-left: 310px;
+}
+
+#tv {
+    margin-left:310px;
+}
+#youTubeImage {
+    margin-left: 0px;
+}
+
+.Menu {
+    margin-left: 310px;
+    margin-top: -350px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+
+p {
+    margin-left: 310px;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+
+a:link {color:black;}    /* unvisited link */
+a:visited {color:black;} /* visited link */
+a:hover {color:gray;}   /* mouse over link */
+a:active {color:gray;}  /* selected link */
+
+.main {
+    margin-left: 310px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    display: -moz-inline-box;
+    display:inline-block;
+    width: 700px;
+}
+
+#urlEntryTextBox {
+    margin-left: 310px;
+    font-weight: bold;
+    font-family: 'Lato';
+    border-radius: 25px;
+}
